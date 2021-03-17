@@ -3,8 +3,6 @@ import DadosPessoais from "./DadosPessoais";
 import DadosUsuario from "./DadosUsuario";
 import { useState } from "react";
 
-import { Typography } from "@material-ui/core";
-
 function FormularioCadastro({ aoEnviar, validarCPF }) {
   const [etapaAtual, setEtapaAtual] = useState(0);
 
